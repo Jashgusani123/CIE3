@@ -1,7 +1,9 @@
-import { Route,BrowserRouter as Router, Routes } from 'react-router-dom'
-import './App.css'
-import Navbar from './Components/NavBar'
-import Home from './Components/Home'
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Navbar from "./Components/NavBar";
+import Home from "./Components/Home";
+import "./App.css"
+import ProjectsPage from "./Components/Projects";
+import BlogsPage from "./Components/Blog";
 
 function App() {
 
@@ -9,10 +11,18 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route
+          path="/"
+          element={
+              <Home />
+             
+          }
+        />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/blogs" element={<BlogsPage />} />
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;

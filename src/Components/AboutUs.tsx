@@ -1,23 +1,20 @@
-
 const AboutUs = () => {
   return (
-    <div className="bg-blue-100 h-full flex justify-center flex-row " id="about">
+    <section className="bg-blue-100 flex flex-col justify-center items-center py-8" id="about-us">
       {/* Heading Section */}
-      <section className="py-8 px-2 text-center  text-black flex justify-center flex-col">
-        <h1 className="text-4xl font-bold">About Us</h1>
-        <p className="text-lg mt-2">
+      <section className="py-8 px-4 text-center text-black">
+        <h1 className="text-4xl font-bold mb-4">About Us</h1>
+        <p className="text-lg">
           We’re a team of passionate individuals committed to excellence.
         </p>
       </section>
 
       {/* Team Members Section */}
-      <section className="py-16 px-2 h-auto">
-        <h2 className="text-3xl text-center mb-8 font-semibold">
-          Meet Our Team
-        </h2>
-        <div className="flex flex-wrap justify-center gap-8">
+      <section className="py-8 px-4 w-full">
+        <h2 className="text-3xl text-center mb-8 font-semibold">Meet Our Team</h2>
+        <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-6">
           {/* Team Member 1 */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center max-w-xs w-full sm:w-1/2 md:w-1/3 lg:w-1/4 hover:scale-105">
+          <div className="bg-white p-6 rounded-lg shadow-md text-center w-full sm:w-72 md:w-64 lg:w-60 xl:w-56 hover:scale-105 transition-transform">
             <img
               src="https://imgs.search.brave.com/x_gPBqPU7mKnqxDAKaE3FX_mqEQjHkaI8TXkEQmnygA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvbWFuLWF2YXRh/ci1wcm9maWxlLXBp/Y3R1cmUtaXNvbGF0/ZWQtYmFja2dyb3Vu/ZC1hdmF0YXItcHJv/ZmlsZS1waWN0dXJl/LW1hbl8xMjkzMjM5/LTQ4NjYuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZA"
               alt="Team Member"
@@ -32,7 +29,7 @@ const AboutUs = () => {
           </div>
 
           {/* Team Member 2 */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center max-w-xs w-full sm:w-1/2 md:w-1/3 lg:w-1/4 hover:scale-105">
+          <div className="bg-white p-6 rounded-lg shadow-md text-center w-full sm:w-72 md:w-64 lg:w-60 xl:w-56 hover:scale-105 transition-transform">
             <img
               src="https://imgs.search.brave.com/x_gPBqPU7mKnqxDAKaE3FX_mqEQjHkaI8TXkEQmnygA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvbWFuLWF2YXRh/ci1wcm9maWxlLXBp/Y3R1cmUtaXNvbGF0/ZWQtYmFja2dyb3Vu/ZC1hdmF0YXItcHJv/ZmlsZS1waWN0dXJl/LW1hbl8xMjkzMjM5/LTQ4NjYuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZA"
               alt="Team Member"
@@ -47,7 +44,7 @@ const AboutUs = () => {
           </div>
 
           {/* Team Member 3 */}
-          <div className="bg-white p-6 rounded-lg shadow-md text-center max-w-xs w-full sm:w-1/2 md:w-1/3 lg:w-1/4 hover:scale-105">
+          <div className="bg-white p-6 rounded-lg shadow-md text-center w-full sm:w-72 md:w-64 lg:w-60 xl:w-56 hover:scale-105 transition-transform">
             <img
               src="https://imgs.search.brave.com/x_gPBqPU7mKnqxDAKaE3FX_mqEQjHkaI8TXkEQmnygA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvbWFuLWF2YXRh/ci1wcm9maWxlLXBp/Y3R1cmUtaXNvbGF0/ZWQtYmFja2dyb3Vu/ZC1hdmF0YXItcHJv/ZmlsZS1waWN0dXJl/LW1hbl8xMjkzMjM5/LTQ4NjYuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZA"
               alt="Team Member"
@@ -62,8 +59,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-
-    </div>
+    </section>
   );
 };
 

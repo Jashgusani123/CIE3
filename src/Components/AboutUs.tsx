@@ -1,0 +1,70 @@
+
+const AboutUs = () => {
+  return (
+    <div className="bg-blue-100 h-full flex justify-center flex-row " id="about">
+      {/* Heading Section */}
+      <section className="py-8 px-2 text-center  text-black flex justify-center flex-col">
+        <h1 className="text-4xl font-bold">About Us</h1>
+        <p className="text-lg mt-2">
+          We’re a team of passionate individuals committed to excellence.
+        </p>
+      </section>
+
+      {/* Team Members Section */}
+      <section className="py-16 px-2 h-auto">
+        <h2 className="text-3xl text-center mb-8 font-semibold">
+          Meet Our Team
+        </h2>
+        <div className="flex flex-wrap justify-center gap-8">
+          {/* Team Member 1 */}
+          <div className="bg-white p-6 rounded-lg shadow-md text-center max-w-xs w-full sm:w-1/2 md:w-1/3 lg:w-1/4 hover:scale-105">
+            <img
+              src="https://imgs.search.brave.com/x_gPBqPU7mKnqxDAKaE3FX_mqEQjHkaI8TXkEQmnygA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvbWFuLWF2YXRh/ci1wcm9maWxlLXBp/Y3R1cmUtaXNvbGF0/ZWQtYmFja2dyb3Vu/ZC1hdmF0YXItcHJv/ZmlsZS1waWN0dXJl/LW1hbl8xMjkzMjM5/LTQ4NjYuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZA"
+              alt="Team Member"
+              className="w-32 h-32 rounded-full mx-auto mb-4"
+            />
+            <h3 className="font-semibold text-xl">John Doe</h3>
+            <p className="text-gray-600">CEO & Founder</p>
+            <p className="mt-2 text-gray-500">
+              John leads the company with a vision for innovation and excellence
+              in every project.
+            </p>
+          </div>
+
+          {/* Team Member 2 */}
+          <div className="bg-white p-6 rounded-lg shadow-md text-center max-w-xs w-full sm:w-1/2 md:w-1/3 lg:w-1/4 hover:scale-105">
+            <img
+              src="https://imgs.search.brave.com/x_gPBqPU7mKnqxDAKaE3FX_mqEQjHkaI8TXkEQmnygA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvbWFuLWF2YXRh/ci1wcm9maWxlLXBp/Y3R1cmUtaXNvbGF0/ZWQtYmFja2dyb3Vu/ZC1hdmF0YXItcHJv/ZmlsZS1waWN0dXJl/LW1hbl8xMjkzMjM5/LTQ4NjYuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZA"
+              alt="Team Member"
+              className="w-32 h-32 rounded-full mx-auto mb-4"
+            />
+            <h3 className="font-semibold text-xl">Jane Smith</h3>
+            <p className="text-gray-600">Lead Developer</p>
+            <p className="mt-2 text-gray-500">
+              Jane is the technical mastermind behind our product development,
+              ensuring quality at every step.
+            </p>
+          </div>
+
+          {/* Team Member 3 */}
+          <div className="bg-white p-6 rounded-lg shadow-md text-center max-w-xs w-full sm:w-1/2 md:w-1/3 lg:w-1/4 hover:scale-105">
+            <img
+              src="https://imgs.search.brave.com/x_gPBqPU7mKnqxDAKaE3FX_mqEQjHkaI8TXkEQmnygA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvbWFuLWF2YXRh/ci1wcm9maWxlLXBp/Y3R1cmUtaXNvbGF0/ZWQtYmFja2dyb3Vu/ZC1hdmF0YXItcHJv/ZmlsZS1waWN0dXJl/LW1hbl8xMjkzMjM5/LTQ4NjYuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZA"
+              alt="Team Member"
+              className="w-32 h-32 rounded-full mx-auto mb-4"
+            />
+            <h3 className="font-semibold text-xl">Alex Johnson</h3>
+            <p className="text-gray-600">Designer</p>
+            <p className="mt-2 text-gray-500">
+              Alex brings a creative touch, ensuring our product is visually
+              stunning and user-friendly.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  );
+};
+
+export default AboutUs;
